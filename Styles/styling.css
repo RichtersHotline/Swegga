@@ -21,8 +21,11 @@ margin-left:150px;
 	width: 790px;
 	background-color: white;
 	margin: 10px auto;
-	padding: 10px; }
-
+	padding: 10px;
+	border:2px solid black;
+	box-shadow:2px 2px #53669C;
+ }
+   
 #banner {
     margin-bottom: 1em;
 	height: 70px }
@@ -75,13 +78,11 @@ outline: #85C4BC solid 3px;;
 .alignRight {
 	text-align: right; }
 
-	#Foot3r {
-
+	#Footr {
+display:flex;
+justify-content:flex-end;
         
-		
-		margin-top:0.5em;
 		border-top:2px solid gray;
-		padding-top:0.7em;
 		clear:left;
 	}
 	/* Keenan Timmie */
