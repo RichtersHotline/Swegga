@@ -39,6 +39,51 @@ background-color:#53669C;
   font-size:1.2em;
 
 	}
+	.TopCon a {
+
+text-decoration:none;
+
+	}
+
+	.BottomCon {
+
+ display:flex;
+ justify-content:center;
+ margin-top:3rem;
+ 
+	}
+	.Order {
+
+		display:flex;
+		flex-flow:row wrap;
+		justify-content:space-between;
+		margin-top:2rem;
+	}
+	#OrderBtn {
+        color:white;
+		text-align:center;
+		background-color:#53669C;
+       border:1px solid black;
+	   margin-right:4.9rem;
+	}
+
+	.OrderInfo label {
+
+display:block;
+margin-top:3rem;
+font-size:1em;
+background-color:#53669C;
+color:white;
+padding:0.2rem;
+	}
+	#Item {
+    border:2px solid black;
+
+	}
+	label {
+
+		font-weight:bold;
+	}
 	.ProductsCon {
        display:flex;
 		flex-flow:row wrap;
