@@ -59,6 +59,34 @@ text-decoration:none;
 		justify-content:space-between;
 		margin-top:2rem;
 	}
+
+	.Order1 {
+
+		display:flex;
+		flex-flow:column wrap;
+		margin-top:2rem;
+	}
+	.Order1 label {
+       margin-block:0.5rem;
+		font-size:1em;
+		background-color:#53669C;
+		color:white;
+		padding:0.2rem;
+		text-align:center;
+			}
+	textarea {
+
+resize:none;
+
+	}
+
+	#ContactBtn {
+		margin-top:1rem;
+		background-color:#53669C;
+		color:white;
+		border:none;
+		padding:0.3rem;
+	}
 	#OrderBtn {
         color:white;
 		text-align:center;
