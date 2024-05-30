@@ -39,6 +39,41 @@ background-color:#53669C;
   font-size:1.2em;
 
 	}
+	.ProductsCon {
+       display:flex;
+		flex-flow:row wrap;
+      gap:0.3rem;
+	}
+	.ProductsCon a {
+
+		text-decoration:none;
+		
+
+
+
+	}
+	.Collections {
+   
+    display:flex;
+	flex-direction:column;
+	justify-content:right
+
+	}
+	.ProductsCon p {
+        text-align:center;
+		flex-flow:row wrap;
+       max-width:150px;
+	   background-color:#53669C;	 
+	     color:white;
+	}
+	.ProductHeader {
+
+text-align:center;
+padding:0.1rem;
+color:white;
+background-color:#53669C;
+		
+	}
 #page {
 	width: 790px;
 	background-color: white;
