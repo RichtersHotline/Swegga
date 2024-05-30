@@ -4,6 +4,10 @@ let MPrice = 180.95;
 let TotalSum = document.getElementById("TotalAll")
 let TotalMale = document.getElementById("TotalM")
 let TotalFem = document.getElementById("TotalF") 
+let OrderDate = document.getElementById("OrderDate")
+let OrderStatus = document.getElementById("OrderStatus")
+let OrderDel = document.getElementById("OrderDel")
+
 // function Total() {
 
 // if (FQuantity == undefined) {
@@ -64,4 +68,13 @@ TotalSum.innerHTML = "No Quantities were selected"
 
     } 
 
+    
+
+}
+function Order() {
+OrderDate.innerHTML = "Date Ordered:" + Date()
+OrderStatus.innerHTML = "Order Status: Pending"
+OrderDel.innerHTML = "Delivery Status: Not Delivered"
+
+        
 }
