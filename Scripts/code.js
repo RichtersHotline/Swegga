@@ -7,6 +7,8 @@ let TotalFem = document.getElementById("TotalF")
 let OrderDate = document.getElementById("OrderDate")
 let OrderStatus = document.getElementById("OrderStatus")
 let OrderDel = document.getElementById("OrderDel")
+let Feedback = document.getElementById("Feedback")
+
 
 // function Total() {
 
@@ -77,4 +79,9 @@ OrderStatus.innerHTML = "Order Status: Pending"
 OrderDel.innerHTML = "Delivery Status: Not Delivered"
 
         
+}
+function Contact() {
+
+Feedback.innerHTML = "Thank you, We'll get back to you as soon as possible."
+    
 }
